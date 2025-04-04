@@ -1,21 +1,53 @@
-1)select quantity from order_details
-where quantity between 5 and 19
+1)-INT:
+cgm(6)
+idade(3)
+codigo_produto(15)
+numero_cartao(19)
+numero_funcionarios(5)
+
+-FLOAT:
+cep(8)
+RG(10)
+peso(4)
+altura(3)
+salario(10)
+
+-STRING:
+nome(50)
+senha(30)
+CPF(11)
+email(60)
+nome_produto(50)
 
 
-2)select concat (first_name,' ', last_name, ',', city) as full_name from employees
+2)Porque os dados sensíveis são tão importantes assim? Qual é o valor dele dentro de
+uma organização? Cite medidas e exemplos de como declarar uma informação
+sensível.
+R:Os dados sensiveis são importantes porque se vazados pode colocar em risco o cliente e a organização, pois podem ser informações pessoais como CPF, endereço e etc. O valor dele dentro da empresa se da que a empresa deve manter a organização e a privacidade de seus usuarios e suas informações pessoais.
+LGPD
 
 
-3)select territory_id from territories 
-where territory_id >='0159' and territory_description  like 'B%' AND region_id is not 1
+3)Analise as declarações abaixo de justifique e marque V para verdadeiro e F para falso,
+caso seja falsa, justifique o motivo do erro.
+(V)idade = 25
+(V)ano_atual = 2025
+(V)quantidade_alunos = 120
+(V)codigo_produto = 45789
+(V)populacao_cidade = 500000
+(V)altura = 1.75
+(V)preco_produto = 99.99
+(V)nota_aluno = 8.7
+(V)temperatura = 36.5
+(V)salario = 3500.50
+(V)nome = "João Silva"
+(V)cidade = "São Paulo"
+(V)curso = "Ciência da Computação"
+(V)cpf = "123.456.789-00"
+(V)telefone = "(11) 98765-4321"
 
 
 
-
-4)
-
-
-
-5)
-
-
-6)
+4) O que você considera ser um sistema seguro dentro da Web? Cite 3 medidas
+relacionadas a variáveis e declaração de dados sensíveis que podem fazer com que seu
+sistema fique mais blindado.
+R)Um sistema que mantem meus dados em privacidade, LGPD, organização, classificação.
